@@ -8,11 +8,13 @@ img{
     width: 100%;
     border-radius: 5px;
 }
+/* ----------------banner section ----------------- */
 
 #banner-section{
     display:flex;
     padding:60px 150px;
     align-items: center;
+ 
 }
 .banner-content{
    margin-right:30px ;
@@ -45,4 +47,34 @@ img{
 .banner-img{
    /* border-radius: 50px; */
    
+}
+/*---------------------- donate-today -------------------------*/
+#donate-today{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.donate-today-content h2{
+   font-size: 45px;
+}
+.donate-today-content p{
+    color: #707070;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+.donation-money{
+    /* display: flex; */
+    padding: 20px 0;
+
+}
+.donation-money button{
+    margin-right: 25px;
+    padding:30px 50px;
+    color:#FF8A22;
+    font-size: 30px;
+    outline: none;
+    border:1px solid #121212;
+    border-radius: 5px;
+    font-weight: 700;
 }
